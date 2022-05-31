@@ -1,3 +1,6 @@
+// Tem a configuração da conexão com o BD.
+const { db } = require('./.env')
+
 module.exports = {
     client: 'postgresql',
     connection: {
